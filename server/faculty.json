@@ -1,0 +1,6 @@
+[
+    {"id":123,"name":"sproothi","branch":"CSE","CGPA":9.1},
+    {"id":111,"name":"murali","branch":"CSD","CGPA":9.2},
+    {"id":125,"name":"","branch":"EEE","CGPA":9.3},
+    {"id":126,"name":"ramesh","branch":"ECE","CGPA":9.4}
+]
