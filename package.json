@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "client",
   "version": "0.1.0",
   "proxy": "https://sbitmern1tejaswini-server.onrender.com",
@@ -50,6 +49,5 @@
   "dependencies": {
     "qrcode": "^1.5.4",
     "react": "^19.2.0"
->>>>>>> f277a1716710bf9ddf7d57d9b01f44e5c568c7ec
   }
 }
