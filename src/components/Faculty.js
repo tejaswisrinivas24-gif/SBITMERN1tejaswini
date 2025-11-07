@@ -71,7 +71,7 @@ const Faculty = () => {
   const handleDelete = async (id) => {
     if (!window.confirm("Are you sure you want to delete this faculty?")) return;
     try {
-      await axios.delete(`http://localhost:5000/api/faculty/${id}`);
+      await axios.delete(`https://sbitmern1tejaswini-server.onrender.com/api/faculty/${id}`);
       await fetchFaculty();
     } catch (err) {
       console.error("Error deleting faculty:", err);
