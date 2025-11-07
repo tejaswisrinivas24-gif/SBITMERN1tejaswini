@@ -114,7 +114,7 @@ function StudentList() {
   const handleEditSave = async () => {
     try {
       const response = await axios.put(
-        `http://localhost:5000/api/students/${selectedStudent._id}`,
+        `https://sbitmern1tejaswini-server.onrender.com/api/students/${selectedStudent._id}`,
         selectedStudent
       );
       console.log("✅ Updated student:", response.data);
