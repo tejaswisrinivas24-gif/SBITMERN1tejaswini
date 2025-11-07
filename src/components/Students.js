@@ -40,7 +40,7 @@ function StudentList() {
 
   const fetchStudents = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/students");
+      const response = await axios.get("https://sbitmern1tejaswini-server.onrender.com/api/students");
       console.log("✅ Fetched Students:", response.data);
       setStudents(response.data);
     } catch (error) {
@@ -96,7 +96,7 @@ function StudentList() {
   const handleDelete = async (id) => {
     if (!window.confirm("Are you sure you want to delete this student?")) return;
     try {
-      await axios.delete(`http://localhost:5000/api/students/${id}`);
+      await axios.delete(`https://sbitmern1tejaswini-server.onrender.com/api/students/${id}`);
       await fetchStudents();
     } catch (error) {
       console.error("❌ Error deleting student:", error);
