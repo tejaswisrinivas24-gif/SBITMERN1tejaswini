@@ -2,7 +2,7 @@
 <<<<<<< HEAD
   "name": "client",
   "version": "0.1.0",
-  "proxy": "http://localhost:5000",
+  "proxy": "https://sbitmern1tejaswini-server.onrender.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
