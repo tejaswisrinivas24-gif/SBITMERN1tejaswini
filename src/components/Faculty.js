@@ -53,7 +53,7 @@ const Faculty = () => {
     try {
       setLoading(true);
       const newFaculty = { name, designation, qualification, salary };
-      await axios.post("http://localhost:5000/api/faculty", newFaculty);
+      await axios.post("https://sbitmern1tejaswini-server.onrender.com/api/faculty", newFaculty);
       setName("");
       setDesignation("");
       setQualification("");
@@ -87,7 +87,7 @@ const Faculty = () => {
   const handleEditSave = async () => {
     try {
       await axios.put(
-        `http://localhost:5000/api/faculty/${selectedFaculty._id}`,
+        `https://sbitmern1tejaswini-server.onrender.com/api/faculty/${selectedFaculty._id}`,
         selectedFaculty
       );
       setEditDialogOpen(false);
