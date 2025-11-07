@@ -35,7 +35,7 @@ const Faculty = () => {
 
   const fetchFaculty = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/faculty");
+      const res = await axios.get("https://sbitmern1tejaswini-server.onrender.com");
       setFaculty(res.data);
     } catch (err) {
       console.error("Error fetching faculty:", err);
